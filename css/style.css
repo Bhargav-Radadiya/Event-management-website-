@@ -1,0 +1,706 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.justify-content-end {
+  justify-content: end;
+}
+
+.align-item-center {
+  align-items: center;
+}
+
+.w-60 {
+  width: 60%;
+  padding: 12px;
+}
+
+.w-20 {
+  width: 20%;
+  padding: 12px;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.w-25 {
+  width: 25%;
+  padding: 12px;
+}
+
+.w-60 {
+  width: 60%;
+  padding: 12px;
+}
+
+.w-40 {
+  width: 40%;
+  padding: 12px;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+.slider {
+  background-color: #300843;
+  position: relative;
+}
+
+header {
+  width: 100%;
+  z-index: 9999;
+  position: absolute;
+}
+header .logo img {
+  vertical-align: middle;
+}
+header .menu {
+  display: flex;
+  justify-content: end;
+}
+header .menu ul li {
+  padding: 0px 20px;
+}
+header .menu ul li a {
+  padding: 0 10px;
+  color: #ffffff;
+  font-family: "inter";
+}
+header .menu ul li span {
+  padding: 0 10px;
+  color: #FF3465;
+  font-family: "inter";
+}
+header .menu ul li:hover a {
+  color: #FF3465;
+  border-bottom: 1px solid #FF3465;
+}
+header .btn {
+  width: 100px;
+  height: 33px;
+  border-radius: 100px;
+  background-color: #FF3465;
+  color: #ffffff;
+  font-size: 16px;
+  font-family: "inter";
+  border: none;
+}
+header .btn:hover {
+  background-color: #ffffff;
+  color: #FF3465;
+}
+
+.slider .img img {
+  width: 100%;
+  border-radius: 0px 0px 0px 25px;
+}
+.slider .content {
+  padding: 0 0 0 50px;
+}
+
+.party {
+  background-image: url("../img/event8-slider-bg.svg");
+}
+.party h1 {
+  color: #ffffff;
+  font-size: 30px;
+  font-family: "dancing-script";
+  padding-left: 85px;
+}
+.party h2 {
+  color: #ffffff;
+  font-size: 80px;
+  font-family: "inter";
+  font-weight: 700;
+  padding-left: 85px;
+}
+.party .event-of {
+  display: inline-block;
+  font-size: 0.4em;
+  line-height: 1;
+  border: 1px solid rgba(255, 255, 255, 0.1254901961);
+  border-radius: 8px;
+  padding: 0.4em 0.4em;
+  top: -0.5em;
+  position: relative;
+  color: #FF3465;
+}
+.party p {
+  color: #ffffff;
+  font-size: 16px;
+  padding-top: 10px;
+  font-family: "roboto";
+  padding-left: 85px;
+  padding-bottom: 40px;
+}
+.party span {
+  color: #FF3465;
+}
+.party button {
+  width: 160px;
+  height: 46px;
+  border-radius: 100px;
+  background-color: #FF3465;
+  color: #ffffff;
+  font-size: 16px;
+  font-family: "inter";
+  font-weight: 700;
+  border: none;
+  transition: all 0.5s;
+}
+.party .btn2:hover {
+  background-color: #ffffff;
+  color: #FF3465;
+}
+.party .btn2 {
+  margin-left: 82px;
+}
+.party button {
+  height: 46px;
+  width: 180px;
+  color: #ffffff;
+  border-radius: 100px;
+  font-size: 16px;
+  font-family: "inter";
+  font-weight: 700;
+  border: none;
+  transition: all 0.5s;
+}
+.party .btn4:hover {
+  border: 1px solid #FF3465;
+}
+.party .btn4 {
+  margin-left: 10px;
+}
+
+.why-us {
+  padding-top: 100px;
+  margin-bottom: 30px;
+}
+.why-us h2 {
+  color: #ffffff;
+  font-size: 55px;
+  font-family: "inter";
+  font-weight: 700;
+}
+.why-us span {
+  color: #FF3465;
+  font-size: 55px;
+  font-family: "inter";
+  font-weight: 700;
+}
+
+.us {
+  background-color: #300843;
+}
+.us .box {
+  background-color: #732c94;
+  width: 100%;
+  border-radius: 10px;
+  padding: 50px 30px 35px 30px;
+  text-align: center;
+  transition: all 0.5s;
+}
+.us .box:hover {
+  background-color: #8340a3;
+}
+.us h1 {
+  font-size: 18px;
+  font-family: "inter";
+  font-weight: 700;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.us p {
+  font-size: 18px;
+  font-family: "inter";
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.us {
+  background-color: #300843;
+}
+.us .box2 {
+  background-color: #ffcb62;
+  width: 100%;
+  border-radius: 10px;
+  padding: 50px 30px 35px 30px;
+  text-align: center;
+  transition: all 0.5s;
+}
+.us .box2:hover {
+  background-color: #fab01b;
+}
+.us h1 {
+  font-size: 18px;
+  font-family: "inter";
+  font-weight: 700;
+  color: #300843;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.us p {
+  font-size: 18px;
+  font-family: "inter";
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: #300843;
+  text-align: center;
+}
+
+.us {
+  background-color: #300843;
+}
+.us .box3 {
+  background-color: #ff6060;
+  width: 100%;
+  border-radius: 10px;
+  padding: 50px 30px 35px 30px;
+  text-align: center;
+  transition: all 0.5s;
+}
+.us .box3:hover {
+  background-color: #ed4d4d;
+}
+.us h1 {
+  font-size: 18px;
+  font-family: "inter";
+  font-weight: 700;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.us p {
+  font-size: 18px;
+  font-family: "inter";
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.us {
+  background-color: #300843;
+}
+.us .box4 {
+  background-color: #FF3465;
+  width: 100%;
+  border-radius: 10px;
+  padding: 50px 30px 35px 30px;
+  text-align: center;
+  transition: all 0.5s;
+}
+.us .box4:hover {
+  background-color: #fd3d3d;
+}
+.us h1 {
+  font-size: 18px;
+  font-family: "inter";
+  font-weight: 700;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.us p {
+  font-size: 18px;
+  font-family: "inter";
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.time-party {
+  padding-top: 100px;
+  text-align: center;
+}
+.time-party .time-to-party h1 {
+  font-size: 32px;
+  font-family: "dancing-script";
+  color: #ffffff;
+}
+.time-party .time-to-party h1 span {
+  font-size: 25px;
+}
+.time-party .time-to-party h2 {
+  font-size: 32px;
+  font-family: "inter";
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 15px;
+  padding-bottom: 30px;
+}
+.time-party .time-to-party span {
+  font-size: 32px;
+  font-family: "inter";
+  color: #FF3465;
+  text-align: center;
+}
+
+.abc {
+  position: relative;
+}
+.abc .Bachelorette {
+  position: relative;
+}
+.abc .Bachelorette img {
+  width: 100%;
+  border-radius: 30px;
+  padding-right: 15px;
+  padding-bottom: 20px;
+}
+.abc .Bachelorette .detail {
+  position: absolute;
+  z-index: 999;
+  bottom: 10px;
+  padding: 0 15px 45px 20px;
+}
+.abc .Bachelorette .detail h2 {
+  font-size: 32px;
+  font-family: "inter";
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+.abc .Bachelorette .detail p {
+  font-size: 18px;
+  font-family: "inter";
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+.abc .Bachelorette .detail button {
+  width: 160px;
+  height: 46px;
+  border-radius: 100px;
+  background-color: #FF3465;
+  color: #ffffff;
+  font-size: 16px;
+  font-family: "inter";
+  font-weight: 700;
+  border: none;
+  transition: all 0.5s;
+}
+.abc .Bachelorette .detail .btn2:hover {
+  background-color: #ffffff;
+  color: #FF3465;
+}
+
+.event-1 {
+  background-image: url(../img/event8-section-bg2.svg);
+  background-size: cover;
+  background-color: #ffffff;
+}
+
+.organizing-events {
+  padding-top: 100px;
+  margin-bottom: 40px;
+}
+.organizing-events h2 {
+  color: #300843;
+  font-size: 55px;
+  font-family: "inter";
+  font-weight: 800;
+  line-height: 65px;
+  text-align: center;
+}
+.organizing-events span {
+  color: #FF3465;
+  font-size: 55px;
+  font-family: "inter";
+  font-weight: 800;
+  line-height: 65px;
+}
+
+.counter {
+  text-align: center;
+}
+.counter span {
+  font-size: 55px;
+  font-family: "inter";
+  font-weight: 700;
+  color: #FF3465;
+}
+.counter p {
+  font-size: 18px;
+  font-family: "inter";
+  color: #300843;
+  padding-top: 15px;
+  margin-bottom: 15px;
+}
+
+.your-team1 {
+  background-color: #ffffff;
+}
+.your-team1 .your-team {
+  padding-top: 100px;
+}
+.your-team1 .your-team h2 {
+  font-size: 55px;
+  font-size: "inter";
+  color: #300843;
+  font-weight: 800;
+  margin-bottom: 30px;
+}
+.your-team1 .your-team span {
+  font-size: 55px;
+  font-family: "inter";
+  font-weight: 700;
+  color: #FF3465;
+}
+.your-team1 .your-team p {
+  font-size: 18px;
+  font-family: "inter";
+  color: #300843;
+  margin-bottom: 30px;
+}
+.your-team1 .your-team button {
+  width: 180px;
+  height: 46px;
+  border-radius: 100px;
+  background-color: #FF3465;
+  color: #ffffff;
+  font-size: 16px;
+  font-family: "inter";
+  font-weight: 700;
+  border: none;
+  transition: all 0.5s;
+}
+.your-team1 .your-team .btn-3:hover {
+  border: 1px solid #FF3465;
+  background-color: #ffffff;
+  color: #FF3465;
+}
+.your-team1 .team-1 img {
+  width: 100%;
+  bottom: 0;
+}
+
+.your-event {
+  background-color: #f8f8f8;
+  padding-top: 100px;
+}
+.your-event h1 {
+  font-size: 32px;
+  font-family: "dancing-script";
+  color: #300843;
+  margin-bottom: 25px;
+}
+.your-event h1 span {
+  font-size: 25px;
+}
+.your-event h2 {
+  font-size: 55px;
+  font-family: "inter";
+  color: #300843;
+  margin-bottom: 40px;
+}
+.your-event span {
+  font-size: 55px;
+  font-family: "inter";
+  color: #FF3465;
+  font-weight: 800;
+}
+
+.event-img img {
+  width: 100%;
+  transition: all 0.5s;
+  cursor: pointer;
+  padding-bottom: 60px;
+}
+.event-img img:hover {
+  transform: scale(1.1);
+}
+
+.review-all {
+  background-color: #ffffff;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.review-all .review img {
+  width: 100%;
+}
+.review-all .star-round {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: #96d9c9;
+  margin-right: 10px;
+}
+.review-all .star-round i {
+  color: #ffffff;
+  text-align: center;
+  padding-left: 8px;
+  padding-top: 8px;
+}
+.review-all .end-round {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: #efefef;
+}
+.review-all i {
+  color: #ffffff;
+  text-align: center;
+  padding-left: 8px;
+  padding-top: 8px;
+}
+.review-all h3 {
+  color: #300843;
+  font-size: 32px;
+  line-height: 40px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+.review-all p {
+  font-size: 18px;
+  font-family: "inter";
+  text-align: center;
+  padding: 15px 0px 0 10px;
+}
+
+.touch {
+  background-color: #ffffff;
+}
+.touch .box-us {
+  background-color: #3a184a;
+  width: 100%;
+  border-radius: 20px;
+  padding: 60px 40px 20px 40px;
+  background-image: url(../img/event8-wrap-bg5.svg);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+.touch .box-us .de {
+  padding: 30px 18px 0px 25px;
+}
+.touch .box-us .de h1 {
+  font-size: 24px;
+  font-family: "inter";
+  color: #FF3465;
+}
+.touch .box-us .de h2 {
+  font-size: 55px;
+  font-family: "inter";
+  color: #ffffff;
+  font-weight: 700;
+}
+.touch .box-us .re {
+  padding: 30px 15px 0 15px;
+}
+.touch .box-us .re span {
+  font-size: 32px;
+  color: #ffffff;
+  font-weight: 800;
+  margin-bottom: 30px;
+}
+.touch .box-us .re h1 {
+  font-size: 18px;
+  font-family: "inter";
+  color: #ffffff;
+  margin: 30px 0px 10px 0px;
+}
+.touch .box-us .re h2 {
+  font-size: 18px;
+  font-family: "inter";
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.touch .box-us .re button {
+  width: 180px;
+  height: 46px;
+  border-radius: 100px;
+  background-color: #FF3465;
+  color: #ffffff;
+  font-size: 16px;
+  font-family: "inter";
+  font-weight: 700;
+  border: none;
+  transition: all 0.5s;
+}
+.touch .box-us .re .btn-3:hover {
+  border: 1px solid #FF3465;
+  background-color: #ffffff;
+  color: #FF3465;
+}
+
+.foot {
+  background-color: #ffffff;
+  padding-top: 100px;
+}
+.foot .footer-line {
+  padding: 60px 0px 60px 0px;
+}
+.foot .footer-line p {
+  font-family: "inter";
+  font-size: 18px;
+  color: #300843;
+  margin: 30px 0px 30px 0px;
+}
+.foot .footer-line .icon i {
+  font-size: 30px;
+  padding: 0px 10px 0px 10px;
+  cursor: pointer;
+}
+.foot .footer-line .icon i:hover {
+  color: #FF3465;
+}
+.foot .footer-line h1 {
+  font-size: 18px;
+  font-family: "inter";
+  font-weight: 700;
+  color: #300843;
+  margin-bottom: 15px;
+}
+.foot .footer-line ul li {
+  font-size: 18px;
+  font-family: "inter";
+  padding-bottom: 10px;
+}
+.foot .footer-line li:hover {
+  color: #FF3465;
+}
+
+.foo {
+  background-color: #ffffff;
+  border-top: 1px solid rgba(6, 6, 6, 0.1);
+}
+.foo .footer-border {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+.foo p {
+  font-size: 18px;
+  font-family: "inter";
+  color: #300843;
+  padding-top: 30px;
+  margin-bottom: 20px;
+}/*# sourceMappingURL=style.css.map */
